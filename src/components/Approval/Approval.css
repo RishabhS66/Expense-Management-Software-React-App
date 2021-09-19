@@ -1,0 +1,16 @@
+@media print {
+  body * {
+    visibility:hidden;
+  }
+  #printModal, #printModal * {
+    visibility:visible;
+  }
+  #printModal {
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100vw !important;
+    width: 100vh !important;
+    
+  }
+}

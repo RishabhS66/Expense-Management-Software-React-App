@@ -1,0 +1,7 @@
+{
+    "testFiles" : "**/*.spec.js",
+    "integrationFolder" :"src/e2e",
+    "viewportWidth" :500,
+    "viewportHeight" :500,
+    "baseUrl" : "http://localhost:3000"
+}

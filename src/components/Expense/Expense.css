@@ -1,0 +1,74 @@
+.div .Card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+  }
+  
+.ms-1 {
+      margin-left: ($spacer * .25) !important;
+  }
+  
+.button {} 
+//should update
+
+
+.Card Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+[type="employee-name"]{
+  width: 70% !important;
+  height: 50px ;
+  /* padding-left: 3rem; */
+  margin-left: 1rem;
+}
+[type="manager-icon"]{
+  /* width: 70% !important; */
+  /* padding-left: 3rem; */
+  margin-left: 1rem;
+}
+
+[id="entry-date"]{
+  width: 150px !important;
+}
+
+[type="employee-dropdown"]{
+  width: 300px !important;
+}
+
+[id="searchbar"]{
+  width: 20px !important;
+}
+
+[type="currency-dropdown"]{
+  width: 300px !important;
+}
+
+/* [type="wide-col"]{
+  width: 400px !important;
+}
+[type="date-col"]{
+  width: 250px !important;
+}
+[type="amount-col"]{
+  width: 200px !important;
+} */
+
+[type="long-description"]{
+  height: 338px !important
+}
+
+[type="long-description2"]{
+  height: 150px !important
+}
+
+/* .dropdown-menu [id~="basic"]{
+  width: 300px !important;
+  /* height: 400px !important; */
+/* } */
