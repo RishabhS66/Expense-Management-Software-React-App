@@ -1,7 +1,8 @@
 import axios from "axios";
 import authHeader from "./auth-header";
 
-const API_URL = "https://expense-backend-3.herokuapp.com/api/expenses/";
+// const API_URL = "https://expense-backend-3.herokuapp.com/api/expenses/";
+const API_URL = "https://expense-backend-rs.herokuapp.com/api/expenses/";
 
 const getExpenseSheets = () => {
   return axios.get(API_URL, { headers: authHeader() }).then((response) => {
