@@ -195,7 +195,6 @@ const AddExpenseSheet = () => {
           <Dropdown.Item
             onClick={handleDownload}
             id={attachmentId}
-            disabled={status !== "SUBMITTED"}
           >
             View Attachment
           </Dropdown.Item>
