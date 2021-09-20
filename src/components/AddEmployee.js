@@ -170,7 +170,7 @@ const AddEmployee = () => {
                     </Form.Group>
 
                     <Form.Group className="mb-3" size="lg" controlId="role">
-                      <Form.Label>Project Manager</Form.Label>
+                      <Form.Label>Employee Role</Form.Label>
                       <Form.Select
                         name="role"
                         value={values.role}
