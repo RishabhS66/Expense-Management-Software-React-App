@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import AddExpenseSheet from "./components/Expense/AddExpenseSheet";
 import ProjectSummary from "./components/Project/ProjectSummary";
 import Approvals from "./components/Approval/Approvals";
+import AddEmployee from "./components/AddEmployee";
 import Login from "./components/Login/Login";
 import Logout from "./components/Logout/Logout";
 import LogoutConfirmation from "./components/Logout/LogoutConfirmation";
@@ -17,7 +18,7 @@ import PrivateRoute from "./PrivateRoute";
 
 
 function App() {
-  const { isLoggedIn } = useSelector((state) => state.auth);
+  const { user, isLoggedIn } = useSelector((state) => state.auth);
   return (
     <>
       <Router>
@@ -40,6 +41,7 @@ function App() {
             component={ProjectSummary}
           />
           <PrivateRoute path="/approvals" component={Approvals} />
+          {isLoggedIn && user.role === "ADMIN" && (<PrivateRoute path="/addemployee" component={AddEmployee} />)}
           <PrivateRoute path="/employees" component={Employees} />
           <Route exact path="/logout" component={Logout} />
           <Route

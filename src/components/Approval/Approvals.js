@@ -13,7 +13,6 @@ import {
   updateExpenseState,
 } from "../../actions/expense.actions";
 import ViewExpense from "./ViewExpense";
-import { Modal } from "bootstrap";
 
 const Approvals = () => {
   const dispatch = useDispatch();
@@ -127,7 +126,6 @@ const Approvals = () => {
     status: "SUBMITTED",
     tax: 0,
     taxZone: "IND",
-    attachments:[],
   };
   const { expensesSubmitted: content } = useSelector(
     (state) => state.expenseByStatus

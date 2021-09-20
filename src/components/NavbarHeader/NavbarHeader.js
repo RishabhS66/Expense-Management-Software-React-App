@@ -49,14 +49,25 @@ const NavbarHeader = () => {
           </Nav>
           <Nav>
             {user.role === "ADMIN" && (
-              <Nav.Link as={Link} to="">
-                <i className="bi bi-gear"></i> Admin Options
-              </Nav.Link>
+              <NavDropdown
+                title={
+                  <>
+                    <i className="bi bi-gear"></i> Admin Options
+                  </>
+                }
+              >
+                <NavDropdown.Item as={Link} to="/addemployee">
+                  Add Employee
+                </NavDropdown.Item>
+              </NavDropdown>
             )}
             <NavDropdown
               title={
                 <>
-                  <i className="bi bi-person-circle" style={{ color: "grey" }}></i>
+                  <i
+                    className="bi bi-person-circle"
+                    style={{ color: "grey" }}
+                  ></i>
                   {userName}
                 </>
               }
@@ -66,12 +77,6 @@ const NavbarHeader = () => {
               <NavDropdown.Item as={Link} to="/changepwd">
                 Change Password
               </NavDropdown.Item>
-              {/* <NavDropdown.Item as={Link} to="">
-                Action2
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="">
-                Action3
-              </NavDropdown.Item> */}
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="/logout">
                 Log Out

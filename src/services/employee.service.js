@@ -10,6 +10,15 @@ const getEmployees = () => {
     });
 };
 
+const addEmployees = (payload) => {
+  return axios
+    .post(API_URL + "api/employees", payload)
+    .then((response) => {
+      return response.data;
+    });
+};
+
 export default {
   getEmployees,
+  addEmployees,
 };

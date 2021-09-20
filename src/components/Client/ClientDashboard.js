@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import BootstrapTable from "react-bootstrap-table-next";
 import paginationFactory from "react-bootstrap-table2-paginator";
 import ToolkitProvider, { Search } from "react-bootstrap-table2-toolkit";
-import { Card, Button, Container, Badge, Dropdown } from "react-bootstrap";
+import { Card, Button, Dropdown } from "react-bootstrap";
 import AddClient from "./AddClient";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";

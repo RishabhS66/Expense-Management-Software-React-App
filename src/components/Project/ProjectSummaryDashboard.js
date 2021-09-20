@@ -10,7 +10,6 @@ import {
   Table,
   Badge,
 } from "react-bootstrap";
-// import FileUpload from "../FileUpload";
 import "./ProjectSummaryDashboard.css";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";

@@ -1,18 +1,16 @@
 import axios from "axios";
 import authHeader from "./auth-header";
-
-// const API_URL = "https://expense-backend-3.herokuapp.com/api/expenses/";
-const API_URL = "https://expense-backend-rs.herokuapp.com/api/expenses/";
+import { API_URL } from "./constants";
 
 const getExpenseSheets = () => {
-  return axios.get(API_URL, { headers: authHeader() }).then((response) => {
+  return axios.get(API_URL + "api/expenses/", { headers: authHeader() }).then((response) => {
     return response.data;
   });
 };
 
 const addEntry = (payload) => {
   return axios
-    .post(API_URL, payload, {
+    .post(API_URL + "api/expenses/", payload, {
       headers: authHeader(),
     })
     .then((response) => {
@@ -22,7 +20,7 @@ const addEntry = (payload) => {
 
 const deleteEntry = (id) => {
   return axios
-    .delete(API_URL + id, { headers: authHeader() })
+    .delete(API_URL + "api/expenses/" + id, { headers: authHeader() })
     .then((response) => {
       return response.data;
     });
@@ -30,7 +28,7 @@ const deleteEntry = (id) => {
 
 const editEntry = (id, payload) => {
   return axios
-    .patch(API_URL + id, payload, {
+    .patch(API_URL + "api/expenses/" + id, payload, {
       headers: authHeader(),
     })
     .then((response) => {
@@ -40,7 +38,7 @@ const editEntry = (id, payload) => {
 
 const getSubmittedExpenses = () => {
   return axios
-    .get(API_URL + "approvals/0", { headers: authHeader() })
+    .get(API_URL + "api/expenses/approvals/0", { headers: authHeader() })
     .then((response) => {
       return response.data;
     });
@@ -48,7 +46,7 @@ const getSubmittedExpenses = () => {
 
 const updateExpenseState = (id, payload) => {
   return axios
-    .patch(API_URL + "updateStatus/" + id, payload, { headers: authHeader() })
+    .patch(API_URL + "api/expenses/updateStatus/" + id, payload, { headers: authHeader() })
     .then((response) => {
       return response.data;
     });
