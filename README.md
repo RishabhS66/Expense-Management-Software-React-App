@@ -19,9 +19,9 @@ This repository includes all the codes which the [Expense Management System](htt
   <li> Feature to change password when the user wants.
 </ul>
 
-## Note
-The **backend code** for this project can be accessed at this [repo](https://github.com/RishabhS66/Expense-Management-Software-Backend).<br>
-Both the frontend and backend components of the project have been hosted at [Heroku](https://www.heroku.com/). <br>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Notes
+1. The **backend code** for this project can be accessed at this [repo](https://github.com/RishabhS66/Expense-Management-Software-Backend).<br>
+2. Both the frontend and backend components of the project have been hosted at [Heroku](https://www.heroku.com/). <br>
+3. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
