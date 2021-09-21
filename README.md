@@ -20,6 +20,7 @@ This repository includes all the codes which the [Expense Management System](htt
 </ul>
 
 ## Note
+The **backend code** for this project can be accessed at this [repo](https://github.com/RishabhS66/Expense-Management-Software-Backend).<br>
 Both the frontend and backend components of the project have been hosted at [Heroku](https://www.heroku.com/). <br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
