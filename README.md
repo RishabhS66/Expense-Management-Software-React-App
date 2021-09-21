@@ -12,12 +12,22 @@ This repository includes all the codes which the [Expense Management System](htt
 ## Features
 <ul type="square">
   <li> Login for employees (with JWT Auth Token)
+  <li> Add new employees when logged in as an Administrator.
   <li> Add new clients and projects
   <li> Add new expenses with attachments
   <li> View project and expense summaries
   <li> Approval tab for approving / rejecting expense claims
   <li> Feature to change password when the user wants.
+  <li> The first time an employee logs in, they will have to set a strong passsword to access other features of the software. It is assumed that the Administrator is responsible for creating initial password for a new employee to log in.
 </ul>
+
+## User Profiles for Demo
+You can use the following credentials to view a demonstration of the software - 
+<ul>
+  <li> <b>Email</b>: rishabh@gmail.com, <b>Password</b>: 1234, <b>Role</b>: Administrator
+  <li> <b>Email</b>: jdoe@gmail.com, <b>Password</b>: @Expense123, <b>Role</b>: Project Manager
+  <li> <b>Email</b>: jndoe@gmail.com, <b>Password</b>: @Expense123, <b>Role</b>: Software Development Engineer
+</ul> 
 
 ## Notes
 1. The **backend code** for this project can be accessed at this [repo](https://github.com/RishabhS66/Expense-Management-Software-Backend).<br>
