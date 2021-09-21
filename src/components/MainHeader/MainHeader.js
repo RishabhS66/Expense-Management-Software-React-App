@@ -5,7 +5,7 @@ import "./MainHeader.css";
 const MainHeader = () => {
   return (
     <Nav className="navbar navbar-light justify-content-center" id="mainHeader">
-      <h1>Expense Mangement System</h1>
+      <h1>Expense Management System</h1>
     </Nav>
   );
 };
