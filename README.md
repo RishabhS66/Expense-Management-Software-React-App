@@ -98,6 +98,56 @@ Steps to add a new employee -
  </div>
  <br>
  
+### Clients Tab
+1. Clients can be added by any employee, irrespective of their role. 
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134295751-e511e7db-79b2-4ddb-9910-d852b2f9c074.png" width="450" height="280">
+    <img src = "https://user-images.githubusercontent.com/39689610/134295774-0da8ae0a-906b-4584-ae7c-d9aeafa5bd03.png" width="450" height="280">
+  </kbd>
+ </div>
+ <br>
+ 
+2. The **Client Dashboard** is shown in the followig image -
+ <div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134296792-76f2bc3a-cf76-4b7a-acb9-ac1e069d6671.png">
+  </kbd>
+ </div>
+ <br>
+ 
+3. Clients are common to the organization and will be visible to all employees in the organization.
+ 
+### Projects Tab
+1. Projects can be added by any employee registered in the organization. 
+2. Each project will have 1 _Project Manager_ mandatorily, and some other employees in the team. The employee who is adding the new project is automatically added as a team member.
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134298810-458d798f-8944-44fa-a558-db64bcbc56a0.png" width="300" height="188">
+    <img src = "https://user-images.githubusercontent.com/39689610/134298798-3779d3db-380a-40e7-a2de-d4d008ce1a18.png" width="300" height="188">
+    <img src = "https://user-images.githubusercontent.com/39689610/134298814-e48f7974-0cb6-4be5-907f-5f4d8a735ec1.png" width="300" height="188">
+    </kbd>
+ </div>
+ <br>
+ 
+ 3. After a project has been added, you can view it in the dashboard. A project will only be visible in an employee's dashboard if they are a part of the project, or they have _Administrator_ privileges.
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134299896-2c3b6923-9d63-4f88-8a57-c8484c25dbec.png">
+</kbd>
+</div>
+<br>
+
+ 4. Detailed summary of the project can be viewed by choosing the **View Summary** option in the **Options** dropdown menu.
+ <div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134300501-6255b978-8045-48c3-be26-ec2889133f44.png" width="450" height="280">
+    <img src = "https://user-images.githubusercontent.com/39689610/134300521-d3eb0bdf-e30a-44e9-94e6-d770404a1abe.png" width="450" height="280">
+  </kbd>
+ </div>
+ <br>
+
+ 
 ## User Profiles for Demo
 You can use the following credentials to view a demonstration of the software - 
 <ul>
