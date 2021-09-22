@@ -19,6 +19,7 @@ This repository includes all the codes which the [Expense Management System](htt
   <li> Approval tab for approving / rejecting expense claims
   <li> Feature to change password when the user wants.
   <li> The first time an employee logs in, they will have to set a strong passsword to access other features of the software. It is assumed that the Administrator is responsible for creating initial password for a new employee to log in.
+  <li> Protected routing - allows all other links except Login page to be accessed only after a user has logged in. 
 </ul>
 
 ## User Profiles for Demo
