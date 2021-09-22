@@ -60,10 +60,10 @@ Steps to add a new employee -
 
 2. Without setting a new password when logged in for the first time, the user will not be able to access any other functionality.
 
-3. Some validations are performed while setting a new password. For example, the **New Password** field must match the **Confirm Password** field, but be different from the **Temporary or Old Password** field.
+3. Some validations are performed while setting a new password. For example, the **New Password** field must match the **Confirm Password** field, but must also be different from the **Temporary or Old Password** field.
 <div align = "center">
   <kbd>
-    <img src = "https://user-images.githubusercontent.com/39689610/134285866-236c24aa-67c0-4159-a08f-79a559ecf899.png">
+    <img src = "https://user-images.githubusercontent.com/39689610/134287005-2dfcb3a4-7c57-4f9a-9061-f3f631328771.png">
   </kbd>
  </div>
  <br>
