@@ -148,7 +148,25 @@ Steps to add a new employee -
 <br>
 
 ### Expenses Tab
-1. All employees can file expenses.
+1. All employees can file expenses. 
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134308306-51bba287-a040-4096-846b-2ba668bfe069.png" width="450" height="280">
+  <img src = "https://user-images.githubusercontent.com/39689610/134308337-a02ff669-62b0-4fd6-abd4-526f3df23a05.png" width="450" height="280">
+</kbd>
+</div>
+<br>
+
+2. After filing the expense, it will be visible in the **Expenses Dashboard**. You can also view the invoice attached for the expense by clicking on **View Attachment** option in the **Options** dropdown.
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134308592-ff366ac8-ccf0-4e79-b7c3-324cc4a01913.png" width="450" height="280">
+  <img src = "https://user-images.githubusercontent.com/39689610/134308623-22d68ba9-9696-49d8-8e51-5cb05262ddc9.png" width="450" height="280">
+</kbd>
+</div>
+<br>
+  
+3. Details of the expense, including the invoice attached for the expense, can also be changed using the **Edit Expense** option.
 
 ### Approvals Tab
 
