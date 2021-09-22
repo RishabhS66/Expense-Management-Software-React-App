@@ -38,7 +38,13 @@ Invalid credentials causes alert pop-ups to appear, as shown in the following im
 Steps to add a new employee -
 1. The administrator has to be logged in. Only the user with Administrator role will be able to access **Admin Options** on the navigation bar.
 2. Click **Admin Options** -> **Add Employee**.
-
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134287363-0f78fabf-67b3-41ad-9f36-8ee46a4c84d0.png">
+  </kbd>
+ </div>
+ <br>
+ 
 3. Enter details about the employee.
 <div align = "center">
   <kbd>
