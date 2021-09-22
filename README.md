@@ -34,6 +34,14 @@ Invalid credentials causes alert pop-ups to appear, as shown in the following im
  </div>
  <br>
 
+If Login is successful, the user will be directed to **Home** page.
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134287731-7be7f0c9-8515-4ab2-a036-2986ab536b98.png">
+  </kbd>
+ </div>
+ <br>
+
 ### Adding a New Employee
 Steps to add a new employee -
 1. The administrator has to be logged in. Only the user with Administrator role will be able to access **Admin Options** on the navigation bar.
