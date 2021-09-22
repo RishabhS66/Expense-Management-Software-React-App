@@ -183,9 +183,25 @@ Steps to add a new employee -
     </kbd>
  </div>
  <br>
+
+2. The approver can click on **View Details** to view the detailed expense summary. The approver can also view the invoice for the filed expense by clicking on the _Attachment_ icon.
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134320070-7e89dd21-9ad0-4725-8d0b-c21759a33e0e.png">
+</kbd>
+</div>
+<br>
+
+3. On approving / rejecting the expense claim, the action will be reflected in the claimant's **Expenses Dashboard**.
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134320790-bfaa1b97-32a0-499f-b079-77bb1f588505.png">
+</kbd>
+</div>
+<br>
  
 ### Employees Tab
-1. A list of all employees is diplayed here. You can also see the roles of each employee.
+1. A list of all employees is displayed here. You can also see the roles of each employee.
 <div align = "center">
 <kbd>
   <img src = "https://user-images.githubusercontent.com/39689610/134306610-3ffb0faa-fb4f-4980-9db5-297264f3acc2.png">
