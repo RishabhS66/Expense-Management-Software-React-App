@@ -169,7 +169,21 @@ Steps to add a new employee -
 3. Details of the expense, including the invoice attached for the expense, can also be changed using the **Edit Expense** option.
 
 ### Approvals Tab
-
+1. Authority for approval / rejection of an expense is according to the defined hierarchy. 
+<ul> 
+  <li>A normal employee cannot approve / reject any expense (first image). 
+  <li>A <i>Project Manager</i> can approve / reject the expenses filed by the project team members, except expenses that the <i>Project Manager</i> has filed by himself / herself (second image). 
+  <li> <i>Adminstrator</i> can approve / reject expenses filed by any of the employees (third image). 
+</ul>
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134315031-8707347d-6f56-4bcd-8876-a9b81328201f.png" width="300" height="188">
+    <img src = "https://user-images.githubusercontent.com/39689610/134315047-9374f82d-ffbc-4653-9705-e8982e265245.png" width="300" height="188">
+    <img src = "https://user-images.githubusercontent.com/39689610/134315051-b6cf7718-0ed8-4516-acd3-b2f7363103ba.png" width="300" height="188">
+    </kbd>
+ </div>
+ <br>
+ 
 ### Employees Tab
 1. A list of all employees is diplayed here. You can also see the roles of each employee.
 <div align = "center">
