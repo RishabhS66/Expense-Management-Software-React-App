@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Expense Management Software
+```
+Coded By: Rishabh Srivastava, Akash Yalla, Kanika Gupta
+```
+In these times of digitalization, all major organizations are aiming to automate most of their processes for better convenience. One important task for an organization involves filing of expenses by employees for claiming reimbursements. These expenses also need to be approved / rejected by the appropriate authority.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application based on **react-redux** at frontend, and **Java** and **PostgreSQL** at backend has been built to provide an automated solution to record and
+report business expenses.
 
-## Available Scripts
+This repository includes all the codes which the [Expense Management System](https://expense-management-system-rs.herokuapp.com/) website uses.
 
-In the project directory, you can run:
+## Features
+<ul type="square">
+  <li> Login for employees (with JWT Auth Token)
+  <li> Add new employees when logged in as an Administrator.
+  <li> Add new clients and projects
+  <li> Add new expenses with attachments
+  <li> View project and expense summaries
+  <li> Approval tab for approving / rejecting expense claims
+  <li> Feature to change password when the user wants.
+  <li> The first time an employee logs in, they will have to set a strong passsword to access other features of the software. It is assumed that the Administrator is responsible for creating initial password for a new employee to log in.
+</ul>
 
-### `npm start`
+## User Profiles for Demo
+You can use the following credentials to view a demonstration of the software - 
+<ul>
+  <li> <b>Email</b>: rishabh@gmail.com, <b>Password</b>: 1234, <b>Role</b>: Administrator
+  <li> <b>Email</b>: jdoe@gmail.com, <b>Password</b>: @Expense123, <b>Role</b>: Project Manager
+  <li> <b>Email</b>: jndoe@gmail.com, <b>Password</b>: @Expense123, <b>Role</b>: Software Development Engineer
+</ul> 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Notes
+1. The **backend code** for this project can be accessed at this [repo](https://github.com/RishabhS66/Expense-Management-Software-Backend).<br>
+2. Both the frontend and backend components of the project have been hosted at [Heroku](https://www.heroku.com/). <br>
+3. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
