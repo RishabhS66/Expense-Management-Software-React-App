@@ -216,6 +216,18 @@ Steps to add a new employee -
 </kbd>
 </div>
 <br>
+
+### Logging Out
+User can log out by as shown in the following images -  
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134325673-f6683509-04a6-4454-b184-65b87eb5be40.png" width="162" height="128">
+  </kbd>
+  <kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134325677-c85c12e3-1aff-48f3-b8b0-55e7ced7e688.png" width="734" height="128">
+</kbd>
+</div>
+<br>
  
 ## User Profiles for Demo
 You can use the following credentials to view a demonstration of the software - 
