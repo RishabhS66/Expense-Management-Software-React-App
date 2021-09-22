@@ -138,15 +138,28 @@ Steps to add a new employee -
 </div>
 <br>
 
- 4. Detailed summary of the project can be viewed by choosing the **View Summary** option in the **Options** dropdown menu.
- <div align = "center">
-  <kbd>
-    <img src = "https://user-images.githubusercontent.com/39689610/134300501-6255b978-8045-48c3-be26-ec2889133f44.png" width="450" height="280">
-    <img src = "https://user-images.githubusercontent.com/39689610/134300521-d3eb0bdf-e30a-44e9-94e6-d770404a1abe.png" width="450" height="280">
-  </kbd>
- </div>
- <br>
+4. Detailed summary of the project can be viewed by choosing the **View Summary** option in the **Options** dropdown menu.
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134300501-6255b978-8045-48c3-be26-ec2889133f44.png" width="450" height="280">
+  <img src = "https://user-images.githubusercontent.com/39689610/134300521-d3eb0bdf-e30a-44e9-94e6-d770404a1abe.png" width="450" height="280">
+</kbd>
+</div>
+<br>
 
+### Expenses Tab
+1. All employees can file expenses.
+
+### Approvals Tab
+
+### Employees Tab
+1. A list of all employees is diplayed here. You can also see the roles of each employee.
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134306610-3ffb0faa-fb4f-4980-9db5-297264f3acc2.png">
+</kbd>
+</div>
+<br>
  
 ## User Profiles for Demo
 You can use the following credentials to view a demonstration of the software - 
