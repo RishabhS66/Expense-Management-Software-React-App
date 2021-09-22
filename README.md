@@ -11,7 +11,7 @@ This repository includes all the codes which the [Expense Management System](htt
 
 ## Features
 <ul type="square">
-  <li> Login for employees (with JWT Auth Token)
+  <li> Login for employees (authentication with JWT Auth Token)
   <li> Add new employees when logged in as an Administrator.
   <li> Add new clients and projects
   <li> Add new expenses with attachments
@@ -19,9 +19,71 @@ This repository includes all the codes which the [Expense Management System](htt
   <li> Approval tab for approving / rejecting expense claims
   <li> Feature to change password when the user wants.
   <li> The first time an employee logs in, they will have to set a strong passsword to access other features of the software. It is assumed that the Administrator is responsible for creating initial password for a new employee to log in.
-  <li> Protected routing - allows all other links except Login page to be accessed only after a user has logged in. 
+  <li> Protected routing - allows all links, except Login page, to be accessed only after a user has logged in. 
 </ul>
 
+## Demonstration
+### Login Page
+The **Login** button gets activated only when the fields for Email and Password are both filled, and the Email entered has the correct format.
+
+Invalid credentials causes alert pop-ups to appear, as shown in the following image -
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134283484-079f6b2d-b04b-4970-a49f-74d42c43ee76.png">
+  </kbd>
+ </div>
+ <br>
+
+### Adding a New Employee
+Steps to add a new employee -
+1. The administrator has to be logged in. Only the user with Administrator role will be able to access **Admin Options** on the navigation bar.
+2. Click **Admin Options** -> **Add Employee**.
+
+3. Enter details about the employee.
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134284500-d0e42738-d55f-43b8-8c38-7ab455cfc2fd.png">
+  </kbd>
+ </div>
+ <br>
+ 
+4. If all fields are valid, the **Submit** button gets activated. Click it to add a new employee.
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134284524-cb84f266-5317-4098-9f28-4506b2bd379b.png">
+  </kbd>
+ </div>
+ <br>
+ 
+### Change Password
+1. Whenever a new employee registered by the Administrator logs in for the first time, they are redirected to **Change Password** page for setting a strong password to secure their account.
+
+2. Without setting a new password when logged in for the first time, the user will not be able to access any other functionality.
+
+3. Some validations are performed while setting a new password. For example, the **New Password** field must match the **Confirm Password** field, but be different from the **Temporary or Old Password** field.
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134285866-236c24aa-67c0-4159-a08f-79a559ecf899.png">
+  </kbd>
+ </div>
+ <br>
+
+4. The **Submit** button gets activated only when these validation conditions are met. 
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134285871-9ef8566a-1545-4536-ad14-b607305796f1.png">
+  </kbd>
+ </div>
+ <br>
+ 
+5. The user can also change their password whenever required. The **Change Password** page can be accessed as shown in the following image -
+<div align = "center">
+  <kbd>
+    <img src = "https://user-images.githubusercontent.com/39689610/134286789-1b3c5fe9-0253-4a33-99e1-faa616e3c82d.png">
+  </kbd>
+ </div>
+ <br>
+ 
 ## User Profiles for Demo
 You can use the following credentials to view a demonstration of the software - 
 <ul>
