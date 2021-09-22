@@ -2,24 +2,23 @@
 ```
 Coded By: Rishabh Srivastava, Akash Yalla, Kanika Gupta
 ```
-In these times of digitalization, all major organizations are aiming to automate most of their processes for better convenience. One important task for an organization involves filing of expenses by employees for claiming reimbursements. These expenses also need to be approved / rejected by the appropriate authority.
+In these times of digitalization, all major organizations are aiming to automate most of their processes for better convenience. One important task for an organization involves the filing of expenses by employees for claiming reimbursements. These expenses also need to be approved / rejected by the appropriate authority.
 
-A web application based on **react-redux** at frontend, and **Java** and **PostgreSQL** at backend has been built to provide an automated solution to record and
-report business expenses.
+A web application based on **react-redux** at the frontend and **Java** and **PostgreSQL** at the backend has been built to provide an automated solution to record and report business expenses.
 
 This repository includes all the codes which the [Expense Management System](https://expense-management-system-rs.herokuapp.com/) website uses.
 
 ## Features
 <ul type="square">
-  <li> Login for employees (authentication with JWT Auth Token)
-  <li> Add new employees when logged in as an Administrator.
-  <li> Add new clients and projects
-  <li> Add new expenses with attachments
-  <li> View project and expense summaries
-  <li> Approval tab for approving / rejecting expense claims
+  <li> Login for employees (authentication with JWT Auth Token).
+  <li> Add new employees when logged in as an _Administrator_.
+  <li> Add new clients and projects.
+  <li> Add new expenses with attachments.
+  <li> View project and expense summaries.
+  <li> Approval tab for approving / rejecting expense claims.
   <li> Feature to change password when the user wants.
-  <li> The first time an employee logs in, they will have to set a strong passsword to access other features of the software. It is assumed that the Administrator is responsible for creating initial password for a new employee to log in.
-  <li> Protected routing - allows all links, except Login page, to be accessed only after a user has logged in. 
+  <li> The first time an employee logs in, they will have to set a strong password to access other features of the software. It is assumed that the _Administrator_ is responsible for creating an initial password for a new employee to log in.
+  <li> Protected routing - allows all pages, except the Login page, to be accessed only after a user has logged in. 
 </ul>
 
 ## Demonstration
@@ -44,7 +43,7 @@ If Login is successful, the user will be directed to **Home** page.
 
 ### Adding a New Employee
 Steps to add a new employee -
-1. The administrator has to be logged in. Only the user with Administrator role will be able to access **Admin Options** on the navigation bar.
+1. The _Administrator_ has to be logged in. Only the user with _Administrator_ role will be able to access **Admin Options** on the navigation bar.
 2. Click **Admin Options** -> **Add Employee**.
 <div align = "center">
   <kbd>
@@ -70,7 +69,7 @@ Steps to add a new employee -
  <br>
  
 ### Change Password
-1. Whenever a new employee registered by the Administrator logs in for the first time, they are redirected to **Change Password** page for setting a strong password to secure their account.
+1. Whenever a new employee registered by the _Administrator_ logs in for the first time, they are redirected to **Change Password** page for setting a strong password to secure their account.
 
 2. Without setting a new password when logged in for the first time, the user will not be able to access any other functionality.
 
@@ -108,7 +107,7 @@ Steps to add a new employee -
  </div>
  <br>
  
-2. The **Client Dashboard** is shown in the followig image -
+2. The **Client Dashboard** is shown in the following image -
  <div align = "center">
   <kbd>
     <img src = "https://user-images.githubusercontent.com/39689610/134296792-76f2bc3a-cf76-4b7a-acb9-ac1e069d6671.png">
