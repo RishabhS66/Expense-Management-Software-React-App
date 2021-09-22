@@ -167,6 +167,14 @@ Steps to add a new employee -
 <br>
   
 3. Details of the expense, including the invoice attached for the expense, can also be changed using the **Edit Expense** option.
+4. An employee can also delete filed expenses, if required, using the **Delete** option.
+<div align = "center">
+<kbd>
+  <img src = "https://user-images.githubusercontent.com/39689610/134321605-7159a372-203f-41a2-aadc-1c1690e5b156.png" width="450" height="280">
+  <img src = "https://user-images.githubusercontent.com/39689610/134321625-63876516-50b2-4c5f-b622-da80abe78054.png" width="450" height="280">
+</kbd>
+</div>
+<br>
 
 ### Approvals Tab
 1. Authority for approval / rejection of an expense is according to the defined hierarchy. 
