@@ -234,6 +234,7 @@ You can use the following credentials to view a demonstration of the software -
   <li> <b>Email</b>: rishabh@gmail.com, <b>Password</b>: 1234, <b>Role</b>: Administrator
   <li> <b>Email</b>: jdoe@gmail.com, <b>Password</b>: @Expense123, <b>Role</b>: Project Manager
   <li> <b>Email</b>: jndoe@gmail.com, <b>Password</b>: @Expense123, <b>Role</b>: Software Development Engineer
+  <li> <b>Email</b>: avi@gmail.com, <b>Password</b>: 1234, <b>Role</b>: Software Development Engineer <i>(It is a new user logging in for the first time)</i>
 </ul> 
 
 ## Notes
