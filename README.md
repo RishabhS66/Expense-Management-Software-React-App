@@ -8,6 +8,10 @@ A web application based on **react-redux** at the frontend and **Java** and **Po
 
 This repository includes all the codes which the [Expense Management System](https://expense-management-system-rs.herokuapp.com/) website uses.
 
+**UPDATE (28 Nov 2022)**: 
+
+The link is not accessible anymore as Heroku, where the project was hosted, has stopped its Free Product plans. I might find an alternative sometime in the future and would update the README accordingly.
+
 ## Features
 <ul type="square">
   <li> Login for employees (authentication with JWT Auth Token).
